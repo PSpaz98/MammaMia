@@ -2,7 +2,7 @@ services:
   - type: web
     name: MammaMia  
     runtime: python  
-    buildCommand: pip install -r requirements.txt  
+    buildCommand: pip install -r MammaMia/requirements.txt  
     startCommand: python3 run.py  
     plan: free 
     region: frankfurt
